@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    outline: none;
+    background-color: rgb(0, 0, 0);
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(240, 240, 236);
+}
+
+.calc{
+    box-shadow: 6px 6px 13px #fff , 6px 6px 13px black;
+    border-radius: 28px;
+    padding: 16px;
+    display: grid;
+    grid-template-columns: repeat(4,66px); 
+}
+
+input{
+    grid-column: span 4;
+    height: 68px;
+    width: 258px;
+    background-color:  rgb(240, 240, 236);
+    border: none;
+    border-radius: 32px;
+    text-align: end;
+    margin: 40px 0px 30px 0px;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.clear{
+    background-color: rgba(224, 224, 224, 0.823);
+}
+.symbol{
+    background-color: rgb(224, 159, 29);
+    color: white;
+    font-size: 25px;
+}
+.number{
+    background-color:rgb(108, 106, 106);
+}
+.clear:hover{
+    color:white;
+}
+.symbol:hover{
+    color: black;
+    font-size: 28px;
+}
+.number:hover{
+    color: white;
+    font-size:23px;
+}
+
+button{
+    background-color:  rgb(240, 240, 236);
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 20px ;
+}
+
+.equal{
+    width: 120px;
+    border-radius: 42px;
+    background-color: rgb(218, 32, 32);
+    color: white;
+}
+
+.equal:hover{
+    color: black;
+    font-size: 25px;
+}
